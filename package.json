@@ -1,0 +1,32 @@
+{
+  "name": "image_companion",
+  "version": "0.1.0",
+  "description": "Web Images Companion.",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "electron .",
+    "packWin": "electron-packager . ImagesCo --platform=win32 --arch=x64",
+    "packMac": "electron-packager . ImagesCo --platform=darwin --arch=x64",
+    "packAll": "electron-packager . ImagesCo --all"
+  },
+  "keywords": [
+    "image",
+    "compressor",
+    "convertor"
+  ],
+  "author": "Tim",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^11.1.0",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.4.3",
+    "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-svgo": "^8.0.0"
+  }
+}
