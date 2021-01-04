@@ -1,6 +1,9 @@
 # ImageCo
 Windows build for ImageCo
 
+## Description
+Bulk image Web optimization software. Choose your local folder to optimize and where to optimize it.
+
 ## imagesco-settings.json example
 ```Json
 [{
