@@ -1,1 +1,15 @@
 # ImageCo
+Windows build for ImageCo
+
+## imagesco-settings.json example
+```Json
+[{
+    "id": "folderConvertTest",
+    "dirWatch": "D:\\_ImagesCo\\_to_convert",
+    "dirTo": "D:\\_ImagesCo\\_converted",
+    "processType": "optimize",
+    "processMode": "auto",
+    "processStatus": 0,
+    "watcherFiles": ""
+}]
+```
